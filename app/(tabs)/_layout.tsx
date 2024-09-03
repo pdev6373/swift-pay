@@ -4,6 +4,10 @@ import { useColorScheme } from '@/hooks/useColorScheme';
 import {
   Activity,
   ActivityActive,
+  Explore,
+  ExploreActive,
+  Home,
+  HomeActive,
   Profile,
   ProfileActive,
 } from '@/assets/images/svgs';
@@ -24,9 +28,9 @@ export default function TabLayout() {
           title: 'Home',
           tabBarIcon: ({ focused }) =>
             focused ? (
-              <ActivityActive style={{ color: '#A0E86F' }} />
+              <HomeActive style={{ color: '#A0E86F' }} />
             ) : (
-              <Activity style={{ color: '#9E9E9E' }} />
+              <Home style={{ color: '#9E9E9E' }} />
             ),
         }}
       />
@@ -36,9 +40,9 @@ export default function TabLayout() {
           title: 'Explore',
           tabBarIcon: ({ focused }) =>
             focused ? (
-              <ActivityActive style={{ color: '#A0E86F' }} />
+              <ExploreActive style={{ color: '#A0E86F' }} />
             ) : (
-              <Activity style={{ color: '#9E9E9E' }} />
+              <Explore style={{ color: '#9E9E9E' }} />
             ),
         }}
       />
