@@ -4,7 +4,7 @@ export default function Account() {
   return (
     <View className="bg-[red] grow">
       <View>
-        <Text>Account</Text>
+        <Text>Account Screen</Text>
       </View>
       <Text>account</Text>
     </View>
